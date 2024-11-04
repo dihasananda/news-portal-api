@@ -2,6 +2,9 @@
 
 API sederhana untuk aplikasi portal berita dengan fitur CRUD untuk berita dan kategori, autentikasi pengguna, dan dokumentasi API.
 
+author: Hafidh Dihas Okaviananda
+email: dihasananda@gmail.com
+
 ## Fitur
 - Registrasi dan login pengguna
 - CRUD untuk berita dan kategori
