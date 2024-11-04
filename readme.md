@@ -26,7 +26,7 @@ Pastikan Anda sudah menginstal **Node.js** dan **PostgreSQL**.
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/news-portal-api.git
+   git clone https://github.com/dihasananda/news-portal-api.git
    cd news-portal-api
    ```
 
