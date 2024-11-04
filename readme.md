@@ -16,7 +16,7 @@ API sederhana untuk aplikasi portal berita dengan fitur CRUD untuk berita dan ka
 - **PostgreSQL** (database)
 - **JWT** (autentikasi)
 - **Swagger** (dokumentasi API)
-- **Jest** dan **Supertest** (pengujian)
+- **Jest** dan **Supertest** (unit test)
 
 ## Instalasi
 
@@ -39,12 +39,27 @@ Pastikan Anda sudah menginstal **Node.js** dan **PostgreSQL**.
 
 4. Jalankan migrasi database (jika diperlukan):
    ```bash
-   npx sequelize-cli db:migrate
+   npm run migrate
+   ```
+   
+   untuk membatalkan migrasi jalankan
+   ```bash
+   npm run migrate:undo
    ```
 
-5. Jalankan server:
+5. Jalankan seed database (jika diperlukan):
    ```bash
-   node app.js
+   npm run seed
+   ```
+
+   untuk membatalkan seed jalankan
+   ```bash
+   npm run seed:undo
+   ```
+
+5. Jalankan server (developer):
+   ```bash
+   npm run dev
    ```
    Server akan berjalan di `http://localhost:3000`.
 
